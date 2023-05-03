@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+}
+
+.date{
+    flex:1 0 130px;
+     margin-top: 10px;
+     margin-left: 10px;
+    height: 40px;
+    align-items: center;
+    
+}
+.btn{
+   
+        width:30%;
+        height:50px;
+        position:relative;
+        border:1px solid red;
+        margin-top: 20px;
+        justify-items: center;
+        justify-content: center;
+        display: inline-block;
+    
+}

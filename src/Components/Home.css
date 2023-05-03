@@ -1,0 +1,17 @@
+
+
+form {
+    margin: 3rem auto;
+    width: 500px;
+    max-width: 80%;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  form > div {
+    display: flex;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
