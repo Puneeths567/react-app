@@ -15,7 +15,7 @@ const RoasterADD = () => {
     e.preventDefault();
     const roasterData = { empid, name, role, date };
     console.log(roasterData);
-    fetch("http://localhost:8080/RoasterData/add", {
+    fetch("http://192.168.64.9:8080/RoasterData/add", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(roasterData),

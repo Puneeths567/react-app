@@ -18,7 +18,7 @@ function DisplayTable() {
   }, []);
 
   function getRoaster() {
-    fetch("http://localhost:8080/RoasterData/getAll")
+    fetch("http://192.168.64.9:8080/RoasterData/getAll")
       .then((res) => res.json())
       .then((data) => {
         setColumn(Object.keys(data));
